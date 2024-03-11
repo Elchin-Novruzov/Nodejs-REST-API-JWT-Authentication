@@ -26,7 +26,8 @@ Password reset through email is also implemented.
 * Email password reset
 * 2 factor authentication (2FA)
 
-![token-based-authentication](https://github.com/Elchin-Novruzov/Nodejs-REST-API-JWT-Authentication/assets/88887189/f2504279-97b6-43cc-ba19-967a8edaa3a5)
+
+![tppls6i2nbdqevr2nybr](https://github.com/Elchin-Novruzov/Nodejs-REST-API-JWT-Authentication/assets/88887189/02414891-a992-42bf-9256-33cabed30a8e)
 
 
 ## **Usage**
