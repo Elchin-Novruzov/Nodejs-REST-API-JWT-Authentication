@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  backend:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./
+    volumes:
+      - /app/node_modules
+      - ./:/app
+    ports: 
+      - 8081:80
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASS: ${SMTP_PASS}
+      VIRTUAL_HOST: ${VIRTUAL_HOST}
+      HCAPTCHA_HOST: ${HCAPTCHA_HOST}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}

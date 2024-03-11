@@ -1,5 +1,5 @@
-# Nodejs REST API JWT Authentication 
-A REST API jwt authentication using nodejs and express. This code uses mongoDB as a database. Docker is supported.
+# Nodejs REST API JWT Authentication Backend [![Build Status](https://jenkins.wmtech.cc/job/nodejs-jwt-auth/job/main/badge/icon)](https://jenkins.wmtech.cc/job/nodejs-jwt-auth/job/main/)
+A REST API jwt authentication backend using nodejs and express. This code uses mongoDB as a database. Docker is supported.
 
 We use two collections, one for users and another for tokens. Token refreshing is supported, expired token will be discarded using TTL index of mongoDB.
 
@@ -25,10 +25,6 @@ Password reset through email is also implemented.
 * Email verification
 * Email password reset
 * 2 factor authentication (2FA)
-
-
-![tppls6i2nbdqevr2nybr](https://github.com/Elchin-Novruzov/Nodejs-REST-API-JWT-Authentication/assets/88887189/02414891-a992-42bf-9256-33cabed30a8e)
-
 
 ## **Usage**
 ### Keypair
@@ -289,4 +285,5 @@ N/A
 }
 ```
 ### GET /publicKey
-Get public JWKS for token verification.#
+Get public JWKS for token verification.#   N o d e j s - R E S T - A P I - J W T - A u t h e n t i c a t i o n 2  
+ 
