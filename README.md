@@ -26,6 +26,9 @@ Password reset through email is also implemented.
 * Email password reset
 * 2 factor authentication (2FA)
 
+![token-based-authentication](https://github.com/Elchin-Novruzov/Nodejs-REST-API-JWT-Authentication/assets/88887189/f2504279-97b6-43cc-ba19-967a8edaa3a5)
+
+
 ## **Usage**
 ### Keypair
 Keypair generation is done in [utils/keypair.js](utils/keypair.js). If you intend to change the algorithm used, please make sure you update them at signing and verifying respectively.
